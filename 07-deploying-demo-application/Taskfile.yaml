@@ -34,9 +34,9 @@ tasks:
   load-generator-python:create-image-pull-secret:
     desc: "Create image pull secret to pull from private registry"
     env:
-      DOCKER_USERNAME:
-      DOCKER_EMAIL:
-      DOCKER_PASSWORD:
+      DOCKER_USERNAME: dembyvlad
+      DOCKER_EMAIL: dembyvlad@gmail.com
+      DOCKER_PASSWORD: 147896325xXx.
     cmds:
       - |
         if [ -z "$DOCKER_USERNAME" ] || [ -z "$DOCKER_EMAIL" ] || [ -z "$DOCKER_PASSWORD" ]; then

@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/v1%40service": "file:///home/vlad/main/projects/kubernetes-course/04-built-in-resource-types/PersistentVolume/civo/StatefulSet.individual-pvcs-civo.yaml"
+    }
+}
