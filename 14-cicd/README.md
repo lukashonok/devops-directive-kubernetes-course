@@ -7,7 +7,8 @@ CI/CD for Kubernetes cna be broken down into a few different components:
 3. Updating Kubernetes manifests with the new image tags
 4. Applying the updated manifests to the cluster(s)
 
-CI should also still do things like validating linting, run tests, etc... but those are not Kubernetes specific so have been excluded here for brevity.
+
+CI should also still do things like validating linting, run tests, etc.... but those are not Kubernetes specific so have been excluded here for brevity.
 
 ## Reference CI Implementation
 
